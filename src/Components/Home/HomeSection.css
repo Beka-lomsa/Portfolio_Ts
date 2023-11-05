@@ -1,0 +1,408 @@
+.homeCon_background{
+  width: 100%;
+  height: 100%;
+  background-color: #e8ffdc;
+}
+.homeSection_Container {
+  height: 580px;
+  background: transparent;
+  margin: 50px 220px 0;
+  padding: 20px 70px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: "Kalam";
+  border-left: 5px solid #606e43;
+  border-right: 5px solid #606e43;
+  display: flex;
+}
+.myReview {
+  width: 60%;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  color: #365e5e;
+}
+.listOfReview {
+  letter-spacing: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.name {
+  color: #551901;
+  font-size: 24px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.handIcon {
+  color: #606e43;
+  margin-right: 10px;
+  width: 50px;
+}
+.rocketIcon {
+  color: #606e43;
+  margin-right: 10px;
+  width: 30px;
+}
+.starIcon {
+  color: #606e43;
+  margin-right: 10px;
+  width: 30px;
+}
+.literIcon {
+  color: #606e43;
+  margin-right: 10px;
+  width: 30px;
+}
+span {
+  color: #0f0f61;
+  opacity: 1;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.img_container {
+  width: 40%;
+  height: 500px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.img_container img {
+  width: 83%;
+  margin-left: 70px;
+  height: 85%;
+  border-radius: 110px;
+  box-shadow: 5px 5px 105px 20px rgb(163, 159, 164);
+  opacity: 0.8;
+}
+.btnContainer {
+  display: flex;
+}
+.downloadBtn {
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 0px 1px 0px rgb(79, 72, 72);
+  background: transparent;
+  color: #606e43;
+  font-family: "Kaushan Script";
+}
+.downloadBtn:hover {
+  text-decoration: underline;
+  box-shadow: 0px 0px 5px 0px rgb(79, 72, 72);
+  background: transparent;
+  cursor: pointer;
+}
+.downloadBtn a {
+  height: 100%;
+  color: #606e43;
+  font-family: "Kaushan Script";
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  display: flex;
+  text-align: center;
+  /* background-color: red; */
+}
+.downloadBtn span {
+  font-size: 1.2rem;
+  color: rgb(161, 138, 10);
+}
+.projBtn {
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  box-shadow: 0px 0px 1px 0px rgb(79, 72, 72);
+  background: transparent;
+  color: #606e43;
+  font-family: "Kaushan Script";
+}
+.projBtn:hover {
+  text-decoration: underline;
+  box-shadow: 0px 0px 5px 0px rgb(79, 72, 72);
+  background: transparent;
+  cursor: pointer;
+}
+.projBtn span {
+  font-size: 1.2rem;
+  color: rgb(161, 138, 10);
+}
+
+@media screen and (max-width: 1280px) {
+  .homeSection_Container{
+    height: 520px;
+    margin: 0px 220px 0;
+    padding: 5px 30px;
+    display: flex;
+  }
+  .listOfReview {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  span {
+    font-size: 20px;
+  }
+  .img_container {
+    width: 35%;
+    height: 350px;
+  }
+  .img_container img {
+    margin-left: 70px;
+  }
+  .downloadBtn {
+    width: 150px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+  .downloadBtn a {
+    font-size: 0.8rem;
+  }
+  .downloadBtn span {
+    font-size: 0.8rem;
+  }
+  .projBtn {
+    width: 150px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+  .projBtn span {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .homeCon_background{
+    height: 120%;
+  }
+  .homeSection_Container{
+    height: 530px;
+  }
+  .myReview1024{
+    width: 100%;
+  }
+  .listOfReview {
+    font-size: 18px;
+  }
+  .listOfReview{
+    margin-bottom: 25px;
+  }
+  .name {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  span {
+    font-size: 20px;
+  }
+  .noImg {
+   display: none;
+  }
+  .btnContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .homeCon_background{
+    height: 140%;
+  }
+  .homeSection_Container{
+    height: 610px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homeSection_Container{
+    margin: 0px 50px;
+    padding: 5px 5px;
+    height: 400px;
+  }
+  .name {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  span {
+    font-size: 15px;
+  }
+  .handIcon {
+    width: 25px;
+  }
+  .rocketIcon {
+    width: 25px;
+  }
+  .starIcon {
+    width: 30px;
+  }
+  .literIcon {
+    width: 25px;
+  }
+  .listOfReview {
+    font-size: 15px;
+  }
+  .downloadBtn {
+    width: 130px;
+    height: 35px;
+  }
+  .downloadBtn a {
+    font-size: 0.7rem;
+  }
+  .downloadBtn span {
+    font-size: 0.7rem;
+  }
+  .projBtn {
+    width: 130px;
+    height: 35px;
+    font-size: 0.7rem;
+  }
+  .projBtn span {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 655px) {
+  .homeCon_background{
+    height: 170%;
+  }
+  .homeSection_Container{
+    height: 400px;
+  }
+  .handIcon {
+    width: 35px;
+  }
+  .rocketIcon {
+    font-size: 0.8rem;
+  }
+  .starIcon {
+    font-size: 0.8rem;
+  }
+  .literIcon {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .homeSection_Container{
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .homeCon_background{
+    height: 220%;
+  }
+  .homeSection_Container{
+    margin: 0px 20px;
+    padding: 0px 0px;
+    padding-right: 10px;
+    height: 450px;
+  }
+  .myReview1024{
+    width: 100%;
+  }
+  .listOfReview {
+    font-size: 15px;
+  }
+  .listOfReview{
+    margin-bottom: 10px;
+  }
+  .name {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  span {
+    font-size: 15px;
+  }
+  .handIcon {
+    width: 25px;
+  }
+  .rocketIcon{
+    width: 10px;
+  }
+  .starIcon{
+    width: 10px;
+  }
+  .literIcon{
+    width: 10px;
+  }
+  .noImg {
+   display: none;
+  }
+
+  .downloadBtn {
+    width: 120px;
+    height: 40px;
+  }
+  .downloadBtn a {
+    font-size: 0.6rem;
+    align-items: center;
+  }
+  .downloadBtn span {
+    font-size: 0.6rem;
+  }
+  .projBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 0.6rem;
+  }
+  .projBtn span {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .homeCon_background{
+    height: 200%;
+  }
+  .homeSection_Container{
+    padding-right: 10px;
+    height: 310px;
+  }
+  .listOfReview {
+    font-size: 10px;
+  }
+  .listOfReview{
+    margin-bottom: 10px;
+  }
+  .name {
+    font-size: 10px;
+    margin-bottom: 25px;
+  }
+  span {
+    font-size: 10px;
+  }
+  .downloadBtn {
+    width: 100px;
+    height: 30px;
+    font-size: 0.6rem;
+  }
+  .downloadBtn span {
+    font-size: 0.6rem;
+  }
+  .projBtn {
+    width: 100px;
+    height: 30px;
+    font-size: 0.6rem;
+  }
+  .projBtn span {
+    font-size: 0.6rem;
+  }
+}

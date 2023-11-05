@@ -1,0 +1,848 @@
+.resume_Container {
+  height: 100%;
+  background-color: #e8ffdc;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: 'Kalam';
+  padding: 0 70px;
+}
+.connection_container{
+  height: 820px;
+  border-left: 5px solid #606e43;
+  border-right: 5px solid #606e43;
+  border-radius: 10px;
+  padding-top: 10px;
+  display: flex;
+}
+.left_part {
+  width: 60%;
+  padding-right: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.cv_header{
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+}
+.persInfo{
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+.persInfo h1{
+  height: 40px;
+}
+.cvImg{
+  width: 150px;
+  height: 160px;
+  border-radius: 100%;
+  margin: 0px 35px;
+}
+.border{
+  height: 780px;
+  border-left: 5px double black;
+}
+/** contact_info  Container */
+
+.contact_Info{
+  width: 100%;
+  height: 120px;
+  background-color: #bccdb3;
+  opacity: 0.8;
+  display: flex;
+  margin-left: 35px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.leftPart_contact{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+.leftPart_contact p {
+  display: flex;
+}
+.rightPart_contact{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.rightPart_contact p {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: #606e43;
+}
+.cont_icons{
+  width: 30px;
+  height: 25px;
+  margin-right: 30px;
+  color: #606e43;
+}
+
+/** skills_container */
+
+.skills_container {
+  width: 100%;
+  height: 140px;
+  opacity: 0.7;
+  display: flex;
+  margin-left: 35px;
+  margin-top: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.list_ofSkills{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  row-gap: 8px;
+}
+.list_ofSkills p {
+  width: 200px;
+  height: auto;
+  padding: 1px;
+  background-color: #b2bc9f;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+/** Experience section */
+.experience_container {
+  width: 100%;
+  height: 340px;
+  opacity: 0.8;
+  display: flex;
+  margin-left: 35px;
+  margin-top: 10px;
+  padding: 0px 10px;
+  padding-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.list_experience{
+  display: inline-flex;
+}
+
+/** Courses section */
+.courses_Info {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  padding: 0 30px;
+}
+.courses_container{
+  width: 100%;
+  height: auto;
+  color: black;
+}
+.courses_container h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.language_container {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  color: black;
+}
+.language_container h2{
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.language_container li {
+  margin-top: 10px;
+}
+.education_container{
+  height: auto;
+  margin-top: 50px;
+}
+.education_container p{
+  margin-top: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1280px) { 
+  .resume_Container {
+    height: 130%;
+    padding: 0 30px;
+  }
+  .connection_container{
+    height: 850px;
+  }
+  .left_part {
+    padding-right: 20px;
+  }
+  .cv_header{
+    margin-left: 20px;
+  }
+  .persInfo h1{
+    font-size: 1.7rem;
+    height: 30px;
+  }
+  .persInfo article {
+    font-size: 13px;
+  }
+  .cvImg{
+    width: 130px;
+    height: 140px;
+    border-radius: 100%;
+    margin: 0px 35px;
+  }
+  .border{
+    height: 820px;
+  }
+  /** contact_info  Container */
+  .contact_Info{
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .leftPart_contact{
+    padding-left: 10px;
+  }
+  .leftPart_contact p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .rightPart_contact p {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+  .cont_icons{
+    width: 15px;
+    margin-right: 15px;
+  }
+  /** skills_container */
+  .skills_container {
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 50px;
+  }
+  .list_ofSkills{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 70px;
+    row-gap: 5px;
+  }
+  .list_ofSkills p {
+    width: auto;
+    height: auto;
+    padding: 1px 20px;
+    font-size: 13px;
+  }
+  /** Experience section */
+  .experience_container {
+    height: 330px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 0px 10px;
+    padding-left: 20px;
+  }
+  .experience_container h4, p {
+    margin-bottom:  10px;
+  }
+  .experience_container li, p {
+  font-size: 12px;
+  }
+
+  /** Courses section */
+
+  .courses_Info li {
+    font-size: 12px;
+  }
+  .courses_container h2 {
+    margin-bottom: 10px;
+  }
+  .language_container {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    color: black;
+  }
+  .language_container h2{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .language_container li {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .education_container{
+    height: auto;
+    margin-top: 40px;
+  }
+  .education_container p{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .resume_Container {
+    height: 145%;
+  } 
+}
+
+@media screen and (max-width: 900px) {
+  .resume_Container {
+    height: 170%;
+  } 
+  .connection_container{
+    height: 870px;
+  }
+  .leftPart_contact p {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .rightPart_contact p {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+  .cont_icons{
+    width: 12px;
+  }
+
+}
+@media screen and (max-width: 768px) { 
+  .resume_Container {
+    height: 160%;
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  .connection_container{
+    height: 720px;
+    padding-top: 10px;
+  }
+  .left_part {
+    padding-right: 10px;
+  }
+  .cv_header{
+    margin-left: 10px;
+  }
+  .persInfo h1{
+    font-size: 1.1rem;
+    height: 25px;
+  }
+  .persInfo h3 {
+   font-size: 0.6rem;
+  }
+  .persInfo article {
+    font-size: 8px;
+  }
+  .cvImg{
+    width: 80px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 0px 15px;
+  }
+  .border{
+    height: 690px;
+  }
+
+  /** contact_info  Container */
+  .contact_Info{
+    width: 100%;
+    height: 70px;
+    margin-left: 10px;
+  }
+  .leftPart_contact p {
+    font-size: 8px;
+  }
+  .rightPart_contact p {
+    font-size: 8px;
+    display: flex;
+  }
+  .cont_icons{
+    width: 15px;
+    height: 10px;
+    margin-right: 5px;
+    color: #606e43;
+  }
+  
+  /** skills_container */
+  .skills_container {
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .skills_container h2 {
+    font-size: 0.8rem;
+  }
+  .list_ofSkills{
+    column-gap: 60px;
+    row-gap: 0px;
+  }
+  .list_ofSkills p {
+    width: auto;
+    height: auto;
+    padding: 1px 20px;
+    font-size: 8px;
+  }
+  /** Experience section */
+  .experience_container {
+    height: 330px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 0px 10px;
+    padding-left: 15px;
+  }
+  .experience_container h2 {
+    font-size: 0.8rem;
+  }
+  .experience_container h4, p {
+    font-size: 10px;
+    margin-bottom:  10px;
+  }
+  .experience_container li, p {
+  font-size: 10px;
+  }
+  
+  /** Courses section */
+  .courses_Info {
+    padding-left: 10px;
+  }
+  .courses_Info ul {
+    padding-left: 10px;
+  }
+  .courses_Info li {
+    font-size: 10px;
+  }
+  .courses_container h2 {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+  .language_container {
+    margin-top: 30px;
+  }
+  .language_container h2{
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+  }
+  .language_container li {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .education_container{
+    margin-top: 30px;
+  }
+  .education_container h2 {
+    font-size: 0.8rem;
+  }
+  .education_container p{
+    margin-top: 8px;
+    font-size: 10px;
+  } 
+}
+@media screen and (max-width: 650px) { 
+  .resume_Container {
+    height: 200%;
+    font-size: 10px;
+    padding: 0 10px;  
+  }
+}
+@media screen and (max-width: 550px) { 
+  .resume_Container {
+    height: 150%;
+  }
+  .connection_container{
+    height: 430px;
+    padding-top: 5px;
+    border-left: 2px solid #606e43;
+    border-right: 2px solid #606e43;
+    border-radius: 8px;
+  }  
+  .left_part {
+    padding-right: 10px;
+  }
+  .cv_header{
+    margin-left: 20px;
+  }
+  .persInfo h1{
+    text-align: center;
+    font-size: 0.8rem;
+    height: 18px;
+  }
+  .persInfo h3 {
+    text-align: center;
+    font-size: 0.4rem;
+    margin-bottom: 5px;
+  }
+  .persInfo article {
+    font-size: 5px;
+    letter-spacing: 0.5px;
+  }
+  .cvImg{
+    display: none;
+  }
+  .border{
+    height: 400px;
+  }
+
+  /** contact_info  Container */
+  .contact_Info{
+    width: 100%;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .leftPart_contact p {
+    font-size: 5px;
+  }
+  .rightPart_contact p {
+    font-size: 5px;
+    display: flex;
+  }
+  .cont_icons{
+    width: 6px;
+    height: 6px;
+  }
+  
+  /** skills_container */
+  .skills_container {
+    height: 70px;
+    margin-top: 20px;
+  }
+  .skills_container h2 {
+    font-size: 0.6rem;
+  }
+  .list_ofSkills{
+    column-gap: 60px;
+  }
+  .list_ofSkills p {
+    width: auto;
+    height: auto;
+    padding: 1px 1px;
+    font-size: 4.5px;
+  }
+  /** Experience section */
+  .experience_container {
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    padding-left: 15px;
+  }
+  .experience_container h2 {
+    font-size: 0.6rem;
+  }
+  .experience_container h4, p {
+    font-size: 6px;
+    margin-bottom:  10px;
+  }
+  .experience_container li, p {
+    font-size: 6px;
+  }
+  
+  /** Courses section */
+  .courses_Info {
+    padding-left: 10px;
+  }
+  .courses_Info ul {
+    padding-left: 5px;
+  }
+  .courses_Info li {
+    font-size: 5.5px;
+  }
+  .courses_container h2 {
+    font-size: 0.6rem;
+    margin-bottom: 5px;
+  }
+  .language_container {
+    margin-top: 15px;
+  }
+  .language_container h2{
+    margin-bottom: 6px;
+    font-size: 0.6rem;
+  }
+  .language_container li {
+    font-size: 5.5px;
+    margin-top: 5px;
+  }
+  .education_container{
+    margin-top: 30px;
+  }
+  .education_container h2 {
+    font-size: 0.6rem;
+  }
+  .education_container p{
+    margin-top: 8px;
+    font-size: 5.5px;
+  }
+}
+
+@media screen and (max-width: 400px) { 
+  .resume_Container {
+    margin-top: 0px;
+    height: 130%;
+  }
+  .connection_container{
+    height: 300px;
+    padding-top: 5px;
+  }
+  .left_part {
+    padding-right: 10px;
+  }
+  .cv_header{
+    margin-left: 15px;
+  }
+  .persInfo h1{
+    text-align: center;
+    font-size: 0.55rem;
+    height: 11px;
+  }
+  .persInfo h3 {
+    text-align: center;
+    font-size: 0.3rem;
+    margin-bottom: 2px;
+  }
+  .persInfo article {
+    font-size: 4px;
+    letter-spacing: 0.5px;
+  }
+  .border{
+    height: 280px;
+    border-left: 2px double black;
+  }
+  /** contact_info  Container */
+  .contact_Info{
+    width: 100%;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .leftPart_contact {
+    padding-left: 3px;
+  }
+  .leftPart_contact p {
+    font-size: 3.5px;
+  }
+  .rightPart_contact p {
+    font-size: 3.5px;
+    display: flex;
+  }
+  .cont_icons{
+    width: 4px;
+    height: 4px;
+  }
+  
+  /** skills_container */
+  .skills_container {
+    height: 70px;
+    margin-top: 2px;
+  }
+  .skills_container h2 {
+    font-size: 0.4rem;
+  }
+  .list_ofSkills{
+    column-gap: 25px;
+  }
+  .list_ofSkills p {
+    width: auto;
+    height: auto;
+    padding: 1px 1px;
+    font-size: 3.5px;
+    margin-bottom: 5px;
+  }
+  /** Experience section */
+  .experience_container {
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 0px 10px;
+    padding-left: 15px;
+  }
+  .experience_container h2 {
+    font-size: 0.4rem;
+  }
+  .experience_container h4, p {
+    font-size: 4.5px;
+    margin-bottom:  4px;
+  }
+  .experience_container li, p {
+    font-size: 4px;
+    letter-spacing: 0.5px;
+  }
+  
+  /** Courses section */
+  .courses_Info {
+    padding-left: 5px;
+  }
+  .courses_Info ul {
+    padding-left: 3px;
+  }
+  .courses_Info li {
+    font-size: 4.5px;
+    letter-spacing: 0.6px;
+  }
+  .courses_container h2 {
+    font-size: 0.4rem;
+    margin-bottom: 3px;
+  }
+  .language_container {
+    margin-top: 10px;
+  }
+  .language_container h2{
+    margin-bottom: 3px;
+    font-size: 0.4rem;
+  }
+  .language_container li {
+    font-size: 4.5px;
+    margin-top: 1.5px;
+  }
+  .education_container{
+    margin-top: 10px;
+  }
+  .education_container h2 {
+    font-size: 0.4rem;
+  }
+  .education_container p{
+    margin-top: 3px;
+    font-size: 4.5px;
+  }
+}
+@media screen and (max-width: 320px) { 
+  .resume_Container {
+    margin-top: 0px;
+    height: 140%;
+  }
+  .connection_container{
+    height: 250px;
+    padding-top: 5px;
+  }
+  .left_part {
+    padding-right: 10px;
+  }
+  .cv_header{
+    margin-left: 15px;
+  }
+  .persInfo h1{
+    text-align: center;
+    font-size: 0.45rem;
+    height: 9px;
+  }
+  .persInfo h3 {
+    text-align: center;
+    font-size: 0.25rem;
+    margin-bottom: 2px;
+  }
+  .persInfo article {
+    font-size: 3.5px;
+    letter-spacing: 0.4px;
+  }
+  .border{
+    height: 240px;
+    border-left: 2px double black;
+  }
+  /** contact_info  Container */
+  .contact_Info{
+    width: 100%;
+    height: 25px;
+    margin-left: 10px;
+  }
+  .leftPart_contact {
+    padding-left: 2.5px;
+  }
+  .leftPart_contact p {
+    font-size: 3px;
+  }
+  .rightPart_contact p {
+    font-size: 3px;
+  }
+  .cont_icons{
+    width: 3.5px;
+    height: 3.5px;
+  }
+  /** skills_container */
+  .skills_container {
+    height: 60px;
+    margin-top: 0px;
+  }
+  .skills_container h2 {
+    font-size: 0.3.5rem;
+  }
+  .list_ofSkills{
+    column-gap: 25px;
+  }
+  .list_ofSkills p {
+    padding: 1px 1px;
+    font-size: 3px;
+    margin-bottom: 4px;
+  }
+  /** Experience section */
+  .experience_container {
+    height: 105px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 0px 10px;
+    padding-left: 5px;
+  }
+  .experience_container h2 {
+    font-size: 0.4rem;
+  }
+  .experience_container h4, p {
+    font-size: 3.5px;
+    margin-bottom:  3px;
+    letter-spacing: 0.5px;
+  }
+  .experience_container li, p {
+    font-size: 3.5px;
+    letter-spacing: 0.3px;
+  }
+  
+  /** Courses section */
+  .courses_Info {
+    padding-left: 5px;
+  }
+  .courses_Info ul {
+    padding-left: 2px;
+  }
+  .courses_Info li {
+    font-size: 4px;
+    letter-spacing: 0.3px;
+  }
+  .courses_container h2 {
+    margin-top: 0px;
+    font-size: 0.4rem;
+    margin-bottom: 2px;
+  }
+  .language_container {
+    margin-top: 8px;
+  }
+  .language_container h2{
+    margin-bottom: 2px;
+    font-size: 0.4rem;
+  }
+  .language_container li {
+    font-size: 4px;
+    margin-top: 0.5px;
+  }
+  .education_container{
+    margin-top: 10px;
+  }
+  .education_container h2 {
+    font-size: 0.4rem;
+  }
+  .education_container p{
+    margin-top: 2px;
+    font-size: 4px;
+  }
+}

@@ -1,6 +1,6 @@
 import "./Projects.css"
 import equi from "../../img/eqqui.png"
-import calcul from "../../img/calcul.png"
+import calcul from "./calcul.png"
 import todo from "../../img/todo.png"
 import cards from "../../img/cards.png"
 import realTime from "../../img/realTime.png"

@@ -1,6 +1,6 @@
 import "./Projects.css"
 import equi from "../../img/eqqui.png"
-import calcu from "../../img/calcu.png"
+import calcul from "../../img/calcul.png"
 import todo from "../../img/todo.png"
 import cards from "../../img/cards.png"
 import realTime from "../../img/realTime.png"
@@ -60,7 +60,7 @@ function Projects(){
           </div>
         </div>
         <div className="Cards">
-          <img src={calcu} alt="" />
+          <img src={calcul} alt="" />
           <div className="all_Btn">
             <a className="web_link" href="#">
               <button type="button" className="web"><TbWorldCode className="commIcons"/>WebSite</button>

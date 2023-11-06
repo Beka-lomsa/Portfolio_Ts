@@ -1,12 +1,12 @@
 import "./Projects.css";
 import equi from "../../img/eqqui.png";
 import calcul from "../../img/calculator.png";
-import todo from "../../img/todo.png";
 import cards from "../../img/cards.png";
 import realTime from "../../img/realTime.png";
 import devDark from "../../img/devLight.png";
 import rate from "../../img/rate.png";
 import faq from "../../img/faq1.png";
+import todo from "../../img/todo.png";
 import { TbWorldCode } from "react-icons/tb";
 import { BsGithub } from "react-icons/bs";
 

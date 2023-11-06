@@ -195,7 +195,7 @@ span {
 }
 @media screen and (max-width: 1024px) {
   .homeCon_background{
-    height: 120%;
+    height: 100%;
   }
   .homeSection_Container{
     height: 530px;

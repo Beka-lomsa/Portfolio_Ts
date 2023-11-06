@@ -1,6 +1,6 @@
 // import 'react';
 import "./About.css"
-import GeoFlag from "../img/saqartvelo.webp"
+import GeoFlag from "../img/saqartvelo.png"
 
 function About() {
   return (

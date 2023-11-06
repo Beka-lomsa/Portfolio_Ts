@@ -1,5 +1,5 @@
 import "./Resume.css";
-import cvImg from "../../img/7beka.jpg";
+import cvImg from "../img/beka.jpg"
 import { TfiLocationPin } from "react-icons/tfi";
 import { FiGithub } from "react-icons/fi";
 import { RiMailSendLine } from "react-icons/ri";

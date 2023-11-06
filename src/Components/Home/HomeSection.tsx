@@ -1,7 +1,7 @@
 import "./HomeSection.css";
 import { BsRocketTakeoff, BsLightbulbFill } from "react-icons/bs";
 import { GiStarSkull } from "react-icons/gi";
-import Beka from "../../img/7beka.jpg";
+import Beka from "../img/beka.jpg";
 import { GiHand } from "react-icons/gi";
 import CV from "../../Fils/Beka-CV.pdf";
 

@@ -1,12 +1,12 @@
 import "./Projects.css";
-import equi from "../img/calculator.png";
+import equi from "../img/equl.png";
 import calcul from "../img/calculator.png";
-import todo from "../img/calculator.png";
-import cards from "../img/calculator.png";
-import realTime from "../img/calculator.png";
-import devDark from "../img/calculator.png";
-import rate from "../img/calculator.png";
-import faq from "../img/calculator.png";
+import todo from "../img/todo.png";
+import cards from "../img/card.png";
+import realTime from "../img/realtime.png";
+import devDark from "../img/gituse.png";
+import rate from "../img/rateca.png";
+import faq from "../img/accordion.png";
 import { TbWorldCode } from "react-icons/tb";
 import { BsGithub } from "react-icons/bs";
 

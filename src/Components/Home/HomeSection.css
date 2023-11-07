@@ -1,6 +1,6 @@
 .homeCon_background{
   width: 100%;
-  height: 100%;
+  height: 110vh;
   background-color: #e8ffdc;
 }
 .homeSection_Container {
@@ -151,8 +151,11 @@ span {
 }
 
 @media screen and (max-width: 1280px) {
+  .homeCon_background{
+    height: 90vh;
+  }
   .homeSection_Container{
-    height: 520px;
+    height: 480px;
     margin: 0px 220px 0;
     padding: 5px 30px;
     display: flex;
@@ -193,10 +196,19 @@ span {
     font-size: 0.8rem;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
   .homeCon_background{
-    height: 100%;
+    height: 110vh;
+    padding-bottom: 100px;
   }
+  .homeSection_Container{
+    height: 530px;
+    margin: 0px 220px 0;
+    padding: 5px 30px;
+    display: flex;
+  }
+}
+@media screen and (max-width: 1024px) {
   .homeSection_Container{
     height: 530px;
   }
@@ -227,15 +239,24 @@ span {
 }
 @media screen and (max-width: 900px) {
   .homeCon_background{
-    height: 140%;
+    padding-bottom: 650px;
   }
   .homeSection_Container{
     height: 610px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .homeSection_Container{
-    margin: 0px 50px;
+    margin: 50px 100px;
+    height: 490px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .homeCon_background{
+    padding-bottom: 100px;
+  }
+  .homeSection_Container{
+    margin: 50px 50px;
     padding: 5px 5px;
     height: 400px;
   }
@@ -280,11 +301,13 @@ span {
     font-size: 0.7rem;
   }
 }
-@media screen and (max-width: 655px) {
+@media screen and (max-width: 660px) {
   .homeCon_background{
-    height: 170%;
+    padding-bottom: 450px;
   }
   .homeSection_Container{
+    margin: 0px 20px;
+    margin-top: 30px;
     height: 400px;
   }
   .handIcon {
@@ -301,6 +324,9 @@ span {
   }
 }
 @media screen and (max-width: 550px) {
+  .homeCon_background{
+    padding-bottom: 450px;
+  }
   .homeSection_Container{
     height: 450px;
   }
@@ -308,13 +334,14 @@ span {
 
 @media screen and (max-width: 455px) {
   .homeCon_background{
-    height: 220%;
+    padding-bottom: 500px;
   }
   .homeSection_Container{
     margin: 0px 20px;
+    margin-top: 20px;
     padding: 0px 0px;
     padding-right: 10px;
-    height: 450px;
+    height: 400px;
   }
   .myReview1024{
     width: 100%;
@@ -368,13 +395,18 @@ span {
     font-size: 0.6rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .homeSection_Container{
+    height: 490px;
+  }
+}
 @media screen and (max-width: 320px) {
   .homeCon_background{
-    height: 200%;
+    padding-bottom: 370px;
   }
   .homeSection_Container{
     padding-right: 10px;
-    height: 310px;
+    height: 350px;
   }
   .listOfReview {
     font-size: 10px;

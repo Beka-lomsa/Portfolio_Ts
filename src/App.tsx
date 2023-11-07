@@ -76,7 +76,7 @@ function App() {
             title="LinkedIn"
             rel="noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/beka-beka-7aa4b2256/"
+            href="https://www.linkedin.com/in/beka-lomsadze-7aa4b2256/"
           >
             <BsLinkedin className="linkd" />
           </a>

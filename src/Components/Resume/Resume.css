@@ -147,7 +147,6 @@ a:hover {
 .courses_Info {
   display: flex;
   flex-direction: column;
-  width: 38%;
   padding: 0 30px;
 }
 .courses_container{
@@ -296,12 +295,21 @@ a:hover {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) { 
   .resume_Container {
-    max-height: 170%;
+    height: 160vh;
+    padding-bottom: 850px;
   } 
   .connection_container{
-    max-height: 870px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .resume_Container {
+    padding-bottom: 920px;
+  } 
+  .connection_container{
+    height: 870px;
   }
   .leftPart_contact p {
     font-size: 10px;
@@ -323,12 +331,13 @@ a:hover {
 }
 @media screen and (max-width: 768px) { 
   .resume_Container {
-    max-height: 160%;
-    font-size: 10px;
     padding: 0 10px;
+    padding-bottom: 680px;
+    font-size: 10px;
+  
   }
   .connection_container{
-    max-height: 720px;
+    height: 650px;
     padding-top: 10px;
   }
   .left_part {
@@ -354,13 +363,13 @@ a:hover {
     margin: 0px 15px;
   }
   .border{
-    height: 690px;
+    height: 630px;
   }
 
   /** contact_info  Container */
   .contact_Info{
     width: 100%;
-    max-height: 70px;
+    height: 70px;
     margin-left: 10px;
   }
   .leftPart_contact p {
@@ -453,26 +462,34 @@ a:hover {
 }
 @media screen and (max-width: 650px) { 
   .resume_Container {
-    max-height: 200%;
     font-size: 10px;
     padding: 0 10px;  
+    padding-bottom: 740px;
+  }
+  .connection_container{
+    height: 720px
   }
   .list_ofSkills{
     column-gap: 40px;
   }
+  .border{
+    height: 700px
+  }
 }
 @media screen and (max-width: 550px) { 
   .resume_Container {
-    max-height: 150%;
+    padding-bottom: 1250px;
   }
   .connection_container{
-    height: 430px;
+    height: 1250px;
+    flex-direction: column;
     padding-top: 5px;
     border-left: 2px solid #606e43;
     border-right: 2px solid #606e43;
     border-radius: 8px;
   }  
   .left_part {
+    width: 100%;
     padding-right: 10px;
   }
   .cv_header{
@@ -480,262 +497,206 @@ a:hover {
   }
   .persInfo h1{
     text-align: center;
-    font-size: 0.8rem;
-    height: 18px;
+    font-size: 1.2rem;
+    height: 25px;
   }
   .persInfo h3 {
     text-align: center;
-    font-size: 0.4rem;
+    font-size: 0.8rem;
     margin-bottom: 5px;
   }
   .persInfo article {
-    font-size: 5px;
+    font-size: 0.9rem;
     letter-spacing: 0.5px;
   }
   .cvImg{
     display: none;
   }
   .border{
-    height: 400px;
+    display: none;
   }
 
   /** contact_info  Container */
   .contact_Info{
     width: 100%;
-    max-height: 40px;
+    height: 100px;
+    margin-top: 20px;
     margin-left: 10px;
   }
   .leftPart_contact p {
-    font-size: 5px;
+    font-size: 0.7rem;
   }
   .rightPart_contact p {
-    font-size: 5px;
+    font-size: 0.7rem;
     display: flex;
   }
   .cont_icons{
-    width: 6px;
-    height: 6px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
   }
   
   /** skills_container */
   .skills_container {
-    height: 70px;
-    margin-top: 20px;
+    height: 100px;
+    margin-top: 40px;
   }
   .skills_container h2 {
-    font-size: 0.6rem;
+    font-size: 1.1rem;
   }
   .list_ofSkills{
-    column-gap: 60px;
+    column-gap: 6rem;
   }
   .list_ofSkills p {
     width: auto;
     height: auto;
     padding: 1px 1px;
-    font-size: 4.5px;
+    font-size: 0.7rem;
   }
   /** Experience section */
   .experience_container {
-    height: 200px;
+    height: auto;
     margin-left: 10px;
-    margin-top: 10px;
     padding: 0px 10px;
-    padding-left: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-top: 0px;
   }
   .experience_container h2 {
-    font-size: 0.6rem;
+    font-size: 1.1rem;
   }
   .experience_container h4, p {
-    font-size: 6px;
+    font-size: 0.8rem;
     margin-bottom:  10px;
   }
   .experience_container li, p {
-    font-size: 6px;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
   }
   
   /** Courses section */
   .courses_Info {
-    padding-left: 10px;
-  }
-  .courses_Info ul {
-    padding-left: 5px;
-  }
-  .courses_Info li {
-    font-size: 5.5px;
+    padding: 0 20px;
+    margin-top: 20px;
   }
   .courses_container h2 {
-    font-size: 0.6rem;
-    margin-bottom: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .courses_Info ul {
+    align-items: center;
+  }
+  .courses_Info li {
+    font-size: 0.8rem;
   }
   .language_container {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   .language_container h2{
     margin-bottom: 6px;
-    font-size: 0.6rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
   .language_container li {
-    font-size: 5.5px;
-    margin-top: 5px;
+    font-size: 0.8rem;
   }
   .education_container{
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .education_container h2 {
-    font-size: 0.6rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
   .education_container p{
-    margin-top: 8px;
-    font-size: 5.5px;
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 0.8rem;
   }
 }
 
-@media all and (max-width: 400px) { 
+@media screen and (max-width: 450px) { 
   .resume_Container {
-    margin-top: 0px;
-    background-color: red;
-    min-height: 370vh;
-    padding-bottom: 0vh;
-    padding-top: 20px;
+    padding-bottom: 1300px;
   }
   .connection_container{
-    height: 500px;
-    padding-top: 20px;
-  }
-  .left_part {
-    padding-right: 10px;
-  }
-  .cv_header{
-    margin-left: 15px;
-  }
-  .persInfo h1{
-    text-align: center;
-    font-size: 0.55rem;
-    height: 11px;
-  }
-  .persInfo h3 {
-    text-align: center;
-    font-size: 0.3rem;
-    margin-bottom: 2px;
-    margin-top: 10px;
-  }
-  .persInfo article {
-    font-size: 4px;
-    letter-spacing: 0.5px;
-    margin-top: 10px;
-  }
-  .border{
-    height: 480px;
-    border-left: 2px double black;
-  }
+    height: 1300px;
+  }  
   /** contact_info  Container */
   .contact_Info{
-    width: 100%;
-    height: 50px;
-    margin-left: 10px;
-    margin-top: 20px;
-    padding-bottom: 10px;
-  }
-  .leftPart_contact {
-    padding-left: 3px;
+    height: 130px;
   }
   .leftPart_contact p {
-    font-size: 3.5px;
+    font-size: 0.65rem;
   }
   .rightPart_contact p {
-    font-size: 3.5px;
-    display: flex;
+    font-size: 0.65rem;
   }
   .cont_icons{
-    width: 4px;
-    height: 4px;
-  }
-  
-  /** skills_container */
-  .skills_container {
-    height: 70px;
-    margin-top: 50px;
-  }
-  .skills_container h2 {
-    font-size: 0.4rem;
-  }
-  .list_ofSkills{
-    column-gap: 25px;
-    margin-top: 10px;
-  }
-  .list_ofSkills p {
-    width: auto;
-    height: auto;
-    padding: 1px 1px;
-    font-size: 3.5px;
-    margin-bottom: 5px;
-  }
-  /** Experience section */
-  .experience_container {
-    height: 120px;
-    margin-left: 10px;
-    margin-top: 50px;
-    padding: 0px 10px;
-    padding-left: 15px;
-  }
-  .experience_container h2 {
-    font-size: 0.4rem;
-  }
-  .experience_container h4, p {
-    font-size: 4.5px;
-    margin-bottom:  4px;
-    margin-top: 10px;
-  }
-  .experience_container li, p {
-    font-size: 4px;
-    letter-spacing: 0.5px;
-  }
-  
-  /** Courses section */
-  .courses_Info {
-    padding-left: 20px;
-  }
-  .courses_Info ul {
-    padding-left: 3px;
-  }
-  .courses_Info li {
-    font-size: 4.5px;
-    letter-spacing: 0.6px;
-  }
-  .courses_container h2 {
-    font-size: 0.4rem;
-    margin-bottom: 3px;
-  }
-  .language_container {
-    margin-top: 30px;
-  }
-  .language_container h2{
-    margin-bottom: 3px;
-    font-size: 0.4rem;
-  }
-  .language_container li {
-    font-size: 4.5px;
-    margin-top: 1.5px;
-  }
-  .education_container{
-    margin-top: 30px;
-  }
-  .education_container h2 {
-    font-size: 0.4rem;
-  }
-  .education_container p{
-    margin-top: 3px;
-    font-size: 4.5px;
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
   }
 }
-
-
-/* @media all and (max-width: 400px) { 
+@media screen and (max-width: 400px) { 
   .resume_Container {
-    background-color: red;
-    margin-top: 0px;
-    height: 1600%;
-    padding-bottom: 0vh;
-    padding-top: 20px;
+    padding-bottom: 1500px;
   }
-} */
+  .connection_container{
+    height: 1500px;
+  } 
+  .contact_Info{
+    display: flex;
+    height: 170px;
+    flex-direction: column;
+  }
+  .leftPart_contact{
+    height: 50%;
+    width: 100%;
+    padding-left: 10px;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .rightPart_contact{
+    height: 50%;
+    width: 100%;
+    padding-left: 10px;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .leftPart_contact p {
+    font-size: 0.7rem;
+  }
+  .rightPart_contact p {
+    font-size: 0.7rem;
+  }
+  .cont_icons{
+    width: 15px;
+    height: 15px;
+    margin-right: 30px;
+  }
+  .list_ofSkills{
+    column-gap: 5rem;
+  }
+}
+@media screen and (max-width: 350px) { 
+  .resume_Container {
+    padding-bottom: 1670px;
+  }
+  .connection_container{
+    height: 1650px;
+  }
+  .leftPart_contact p {
+    font-size: 0.6rem;
+  }
+  .rightPart_contact p {
+    font-size: 0.6rem;
+  }
+  .cont_icons{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+  }
+  .list_ofSkills{
+    column-gap: 3rem;
+  }
+}

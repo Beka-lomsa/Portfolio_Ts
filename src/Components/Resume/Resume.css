@@ -700,3 +700,11 @@ a:hover {
     column-gap: 3rem;
   }
 }
+@media screen and (max-width: 320px) { 
+  .resume_Container {
+    padding-bottom: 1750px;
+  }
+  .connection_container{
+    height: 1750px;
+  }
+}

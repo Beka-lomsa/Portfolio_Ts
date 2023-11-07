@@ -469,4 +469,12 @@
     margin-left: 5px;
   }
 }
+@media screen and (max-width: 350px) { 
+  .legal-info{
+    font-size: 1.5px;
+  }
+  .legal-info p {
+    font-size: 1.5px;
+  }
+}
 

@@ -708,3 +708,11 @@ a:hover {
     height: 1750px;
   }
 }
+@media screen and (max-width: 280px) { 
+  .resume_Container {
+    padding-bottom: 1950px;
+  }
+  .connection_container{
+    height: 1900px;
+  }
+}

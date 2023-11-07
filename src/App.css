@@ -405,12 +405,12 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .legal-info{
-    font-size: 6px;
-  }
   .legal-info p {
-    font-size: 6px;
+    font-size: 5px;
     margin-bottom: 0px;
+  }
+  .legal-info a {
+    font-size: 5px;
   }
   .logos_container{
     padding-top: 5px;
@@ -434,8 +434,11 @@
     font-size: 4.5px;
   }
   .legal-info p {
-    font-size: 5px;
+    font-size: 4px;
     margin-bottom: 0px;
+  }
+  .legal-info a {
+    font-size: 4px;
   }
   .social-icons a {
     font-size: 5px;
@@ -450,10 +453,10 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .legal-info{
+  .legal-info p {
     font-size: 3px;
   }
-  .legal-info p {
+  .legal-info a {
     font-size: 3px;
   }
   .logo {
@@ -470,11 +473,11 @@
   }
 }
 @media screen and (max-width: 350px) { 
-  .legal-info{
-    font-size: 1.5px;
-  }
   .legal-info p {
-    font-size: 1.5px;
+    font-size: 1px;
+  }
+  .legal-info a {
+    font-size: 1px;
   }
 }
 

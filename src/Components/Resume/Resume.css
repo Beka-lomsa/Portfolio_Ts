@@ -680,7 +680,7 @@ a:hover {
 }
 @media screen and (max-width: 360px) { 
   .resume_Container {
-    padding-bottom: 1750px;
+    padding-bottom: 1650px;
   }
   .connection_container{
     height: 1550px;

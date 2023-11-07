@@ -639,10 +639,10 @@ a:hover {
 }
 @media screen and (max-width: 400px) { 
   .resume_Container {
-    padding-bottom: 1600px;
+    padding-bottom: 1700px;
   }
   .connection_container{
-    height: 1500px;
+    height: 1700px;
   } 
   .contact_Info{
     display: flex;

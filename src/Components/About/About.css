@@ -151,6 +151,24 @@
     height: 400px;
   }
 }
+@media screen and (max-width: 360px) {
+  .geoFlag{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .flagInfo_Container p{
+    font-size: 0.8rem;   
+  }
+  .geoFlag{
+    width: 55px;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+  }
+}
 @media screen and (max-width: 320px) {
   .container_background{
     padding-bottom: 320px;

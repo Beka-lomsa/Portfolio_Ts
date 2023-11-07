@@ -306,45 +306,7 @@
     margin-left: 7px;
   }
 }
-@media screen and (max-width: 400px) { 
-  .active {
-    padding: 5px;
-    font-size: 7px;
-  }
-  .hovActive{
-    padding: 5px;
-    font-size: 7px;
-  }
-  .print_icons{
-    width: 8px;
-    margin-right: 7px;
-  }
-  .print_icons:hover{
-    width: 9px;
-    margin-right: 6px;
-  }
-  .accdntical_Alart{
-    font-size: 4px;
-  }
-  .hd_right .git{
-    width: 7px;
-    height: auto;
-  }
-  .hd_right .linkd{
-    width: 7px;
-    height: auto;
-    margin-left: 8px;
-  }
-  .hd_right .git:hover {
-    width: 7.5px;
-    height: auto;
-  }
-  .hd_right .linkd:hover {
-    width: 7.5px;
-    height: auto;
-    margin-left: 7.5px;
-  }
-}
+
   /** Footer */
   @media screen and (max-width: 1250px) { 
     .legal-info{

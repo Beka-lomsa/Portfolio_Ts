@@ -680,10 +680,10 @@ a:hover {
 }
 @media screen and (max-width: 350px) { 
   .resume_Container {
-    padding-bottom: 1800px;
+    padding-bottom: 1850px;
   }
   .connection_container{
-    height: 1650px;
+    height: 1600px;
   }
   .leftPart_contact p {
     font-size: 0.6rem;

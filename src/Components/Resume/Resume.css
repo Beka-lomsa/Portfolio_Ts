@@ -678,9 +678,9 @@ a:hover {
     column-gap: 5rem;
   }
 }
-@media screen and (max-width: 350px) { 
+@media screen and (max-width: 355px) { 
   .resume_Container {
-    padding-bottom: 1850px;
+    padding-bottom: 1750px;
   }
   .connection_container{
     height: 1600px;

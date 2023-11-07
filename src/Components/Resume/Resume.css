@@ -642,7 +642,7 @@ a:hover {
     padding-bottom: 1700px;
   }
   .connection_container{
-    height: 1700px;
+    height: 1650px;
   } 
   .contact_Info{
     display: flex;
@@ -678,12 +678,12 @@ a:hover {
     column-gap: 5rem;
   }
 }
-@media screen and (max-width: 355px) { 
+@media screen and (max-width: 360px) { 
   .resume_Container {
     padding-bottom: 1750px;
   }
   .connection_container{
-    height: 1520px;
+    height: 1550px;
   }
   .leftPart_contact p {
     font-size: 0.6rem;

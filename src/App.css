@@ -443,9 +443,6 @@
   .social-icons a {
     font-size: 5px;
   }
-  .reactIcon, .twitIcon, .instIcon {
-    width: 8px;
-  }
 } 
 @media screen and (max-width: 400px) { 
   .footer_container{
@@ -465,9 +462,6 @@
   }
   .social-icons a {
     font-size: 5px;
-  }
-  .reactIcon, .twitIcon, .instIcon {
-    width: 5px;
   }
   .twitIcon{
     margin-left: 5px;

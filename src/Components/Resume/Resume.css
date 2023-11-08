@@ -642,11 +642,6 @@ a:hover {
     background-color: #65eb1e;
   }
 }
-@media screen and (max-width: 277px) { 
-  .resume_Container {
-    background-color: #eb511e;
-  }
-}
 @media screen and (max-width: 400px) { 
   .resume_Container {
     padding-bottom: 1700px;

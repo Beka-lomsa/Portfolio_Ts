@@ -152,6 +152,12 @@
   }
 }
 @media screen and (max-width: 360px) {
+  .container_background{
+    padding-bottom: 500px;
+  }
+  .about_Container {
+    height: 400px;
+  }
   .geoFlag{
     margin-right: 10px;
     margin-left: 10px;
@@ -171,10 +177,10 @@
 }
 @media screen and (max-width: 320px) {
   .container_background{
-    padding-bottom: 650px;
+    padding-bottom: 320px;
   }
   .about_Container {
-    height: 700px;
+    height: 300px;
     margin-bottom: 0px;
   }
   .geoFlag{

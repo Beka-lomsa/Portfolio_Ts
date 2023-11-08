@@ -145,18 +145,31 @@
 }
 @media screen and (max-width: 400px) {
   .container_background{
-    padding-bottom: 650px;
+    padding-bottom: 620px;
+    background-color: rgb(228, 153, 63);
   }
   .about_Container {
-    height: 570px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container_background{
+   background-color: rgb(47, 231, 255);
+  }
+}
+@media screen and (max-width: 380px) {
+  .container_background{
+   background-color: rgb(208, 211, 24);
+  }
+}
+@media screen and (max-width: 370px) {
+  .container_background{
+   background-color: greenyellow;
   }
 }
 @media screen and (max-width: 360px) {
   .container_background{
-    padding-bottom: 500px;
-  }
-  .about_Container {
-    height: 400px;
+   background-color: red;
   }
   .geoFlag{
     margin-right: 10px;

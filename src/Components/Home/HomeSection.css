@@ -112,6 +112,7 @@ span {
   font-size: 1.2rem;
   display: flex;
   text-align: center;
+  /* background-color: red; */
 }
 .downloadBtn span {
   font-size: 1.2rem;
@@ -395,30 +396,17 @@ span {
   }
 }
 @media screen and (max-width: 400px) {
-  .homeCon_background{
-    padding-bottom: 1400px;
-  }
   .homeSection_Container{
-    height: 800px;
-    padding-left: 5px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .homeCon_background{
-    padding-bottom: 550px;
-  }
-  .homeSection_Container{
-    height: 500px;
-    padding-left: 5px;
+    height: 490px;
   }
 }
 @media screen and (max-width: 320px) {
   .homeCon_background{
-    padding-bottom: 800px;
+    padding-bottom: 370px;
   }
   .homeSection_Container{
     padding-right: 10px;
-    height: 900px;
+    height: 350px;
   }
   .listOfReview {
     font-size: 10px;

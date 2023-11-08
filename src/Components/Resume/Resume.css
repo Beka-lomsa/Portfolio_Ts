@@ -637,11 +637,6 @@ a:hover {
     height: 12px;
   }
 }
-@media screen and (max-width: 412px) { 
-  .resume_Container {
-    background-color: #65eb1e;
-  }
-}
 @media screen and (max-width: 400px) { 
   .resume_Container {
     padding-bottom: 1700px;
@@ -716,13 +711,5 @@ a:hover {
   }
   .connection_container{
     height: 1800px;
-  }
-}
-@media screen and (max-width: 280px) {
-  .resume_Container {
-    padding-bottom: 2100px;
-  }
-  .connection_container{
-    height: 2000px;
   }
 }

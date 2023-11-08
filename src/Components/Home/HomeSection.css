@@ -396,7 +396,7 @@ span {
 }
 @media screen and (max-width: 400px) {
   .homeCon_background{
-    padding-bottom: 800px;
+    padding-bottom: 1200px;
   }
   .homeSection_Container{
     height: 650px;

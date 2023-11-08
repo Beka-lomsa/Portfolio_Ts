@@ -616,10 +616,10 @@ a:hover {
 
 @media screen and (max-width: 450px) { 
   .resume_Container {
-    padding-bottom: 1450px;
+    padding-bottom: 1500px;
   }
   .connection_container{
-    height: 1330px;
+    height: 1530px;
   }  
   /** contact_info  Container */
   .contact_Info{

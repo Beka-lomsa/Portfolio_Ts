@@ -143,6 +143,11 @@
     font-size: 0.8rem;
   }
 }
+@media screen and (max-width: 410px) {
+  .container_background{
+   background-color: rgb(255, 47, 234);
+  }
+}
 @media screen and (max-width: 400px) {
   .container_background{
     padding-bottom: 620px;
@@ -165,6 +170,16 @@
 @media screen and (max-width: 370px) {
   .container_background{
    background-color: greenyellow;
+  }
+}
+@media screen and (max-width: 357px) {
+  .container_background{
+   background-color: rgb(255, 47, 78);
+  }
+}
+@media screen and (max-width: 350px) {
+  .container_background{
+   background-color: rgb(95, 47, 255);
   }
 }
 @media screen and (max-width: 360px) {

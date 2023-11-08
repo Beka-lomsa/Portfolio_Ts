@@ -396,7 +396,8 @@ span {
 }
 @media screen and (max-width: 400px) {
   .homeSection_Container{
-    height: 490px;
+    height: 550px;
+    padding-left: 5px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -435,47 +436,5 @@ span {
   }
   .projBtn span {
     font-size: 0.6rem;
-  }
-}
-
-@media screen and (max-width: 290px) {
-  .homeCon_background{
-    padding-bottom: 400px;
-  }
-  .homeSection_Container{
-    padding-right: 5px;
-    padding-left: 5px;
-    height: 450px;
-  }
-  .listOfReview {
-    font-size: 9px;
-  }
-  .listOfReview{
-    margin-bottom: 9px;
-  }
-  .name {
-    font-size: 9px;
-    margin-bottom: 25px;
-  }
-  span {
-    font-size: 9.5px;
-  }
-  .downloadBtn  {
-    width: 80px;
-    height: 25px;  
-  }
-  .downloadBtn a{
-    font-size: 0.4rem;
-  }
-  .downloadBtn span {
-    font-size: 0.4rem;
-  }
-  .projBtn {
-    width: 80px;
-    height: 25px;
-    font-size: 0.4rem;
-  }
-  .projBtn span {
-    font-size: 0.4rem;
   }
 }

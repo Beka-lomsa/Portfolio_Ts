@@ -396,16 +396,16 @@ span {
 }
 @media screen and (max-width: 400px) {
   .homeCon_background{
-    padding-bottom: 1200px;
+    padding-bottom: 1400px;
   }
   .homeSection_Container{
-    height: 650px;
+    height: 800px;
     padding-left: 5px;
   }
 }
 @media screen and (max-width: 360px) {
   .homeCon_background{
-    padding-bottom: 600px;
+    padding-bottom: 550px;
   }
   .homeSection_Container{
     height: 500px;

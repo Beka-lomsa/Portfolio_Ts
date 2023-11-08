@@ -193,7 +193,7 @@
     font-size: 0.6rem;
   }
 }
-@media screen and (max-width: 277px) {
+@media screen and (max-width: 300px) {
   .about_Container {
     height: 400px;
     background-color: red;

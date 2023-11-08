@@ -395,18 +395,21 @@ span {
   }
 }
 @media screen and (max-width: 400px) {
+  .homeCon_background{
+    padding-bottom: 600px;
+  }
   .homeSection_Container{
-    height: 550px;
+    height: 650px;
     padding-left: 5px;
   }
 }
 @media screen and (max-width: 320px) {
   .homeCon_background{
-    padding-bottom: 370px;
+    padding-bottom: 800px;
   }
   .homeSection_Container{
     padding-right: 10px;
-    height: 350px;
+    height: 900px;
   }
   .listOfReview {
     font-size: 10px;

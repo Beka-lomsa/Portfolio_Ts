@@ -172,7 +172,7 @@
    background-color: rgb(208, 211, 24);
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 356px) {
   .container_background{
    background-color: greenyellow;
   }
@@ -182,7 +182,7 @@
    background-color: rgb(250, 163, 176);
   }
 }
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 358px) {
   .container_background{
    background-color: rgb(95, 47, 255);
   }

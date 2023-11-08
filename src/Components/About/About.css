@@ -193,3 +193,8 @@
     font-size: 0.6rem;
   }
 }
+@media screen and (max-width: 290px) {
+  .about_Container {
+    height: 400px;
+  }
+}

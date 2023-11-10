@@ -1,106 +1,93 @@
 .homeCon_background{
   width: 100%;
   height: 110vh;
-  background-color: #e8ffdc;
+  display: flex;
+  justify-content: center;
 }
 .homeSection_Container {
-  height: 580px;
-  background: transparent;
-  margin: 50px 220px 0;
-  padding: 20px 70px;
-  letter-spacing: 1px;
-  font-size: 18px;
-  border-radius: 10px;
+  height: 65%;
+  margin: 3% 10%;
+  padding: 2rem 3rem;
+  letter-spacing: 0.09rem;
+  border-radius: 0.7rem;
   font-family: "Kalam";
-  border-left: 5px solid #606e43;
-  border-right: 5px solid #606e43;
+  border-left: 0.3rem solid #606e43;
+  border-right: 0.3rem solid #606e43;
   display: flex;
 }
 .myReview {
-  width: 60%;
+  width: 70%;
   height: auto;
-  padding: 5px;
   display: flex;
   flex-direction: column;
   color: #365e5e;
 }
 .listOfReview {
   letter-spacing: 0;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
 }
 .name {
   color: #551901;
-  font-size: 24px;
+  font-size: 1.5rem;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .handIcon {
   color: #606e43;
-  margin-right: 10px;
-  width: 50px;
+  margin-right: 1.5rem;
+  width: 3rem;
 }
-.rocketIcon {
+.rocketIcon, .starIcon, .literIcon   {
   color: #606e43;
-  margin-right: 10px;
-  width: 30px;
+  margin-right: 0.7rem;
+  width: 1.9rem;
 }
-.starIcon {
-  color: #606e43;
-  margin-right: 10px;
-  width: 30px;
-}
-.literIcon {
-  color: #606e43;
-  margin-right: 10px;
-  width: 30px;
-}
-span {
+.name span {
   color: #0f0f61;
   opacity: 1;
-  font-size: 25px;
-  margin-left: 10px;
+  font-size: 1.5rem;
+  margin-left: 0.7rem;
 }
 .img_container {
-  width: 40%;
-  height: 500px;
-  padding: 5px;
+  width: 30%;
+  height: 32rem;
+  padding: 0.2rem;
   display: flex;
   justify-content: center;
 }
 .img_container img {
-  width: 83%;
-  margin-left: 70px;
+  width: 80%;
+  margin-left: 3rem;
   height: 85%;
-  border-radius: 110px;
-  box-shadow: 5px 5px 105px 20px rgb(163, 159, 164);
+  border-radius: 6.8rem;
+  box-shadow: 0.3rem 0.3rem 6.5rem 1.25rem rgb(163, 159, 164);
   opacity: 0.8;
 }
 .btnContainer {
   display: flex;
 }
 .downloadBtn {
-  width: 180px;
-  height: 50px;
-  padding: 10px;
+  width: 11rem;
+  height: 3rem;
+  padding: 0.7rem;
   display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
   justify-content: center;
-  margin-top: 5px;
-  letter-spacing: 2px;
-  font-size: 1.2rem;
+  margin-top: 0.4rem;
+  letter-spacing: 0.2rem;
   border: none;
-  border-radius: 12px;
-  box-shadow: 0px 0px 1px 0px rgb(79, 72, 72);
+  border-radius: 0.8rem;
+  box-shadow: 0rem 0rem 0.09rem 0rem rgb(79, 72, 72);
   background: transparent;
   color: #606e43;
   font-family: "Kaushan Script";
 }
 .downloadBtn:hover {
   text-decoration: underline;
-  box-shadow: 0px 0px 5px 0px rgb(79, 72, 72);
+  box-shadow: 0rem 0rem 0.4rem 0rem rgb(79, 72, 72);
   background: transparent;
   cursor: pointer;
 }
@@ -108,333 +95,226 @@ span {
   height: 100%;
   color: #606e43;
   font-family: "Kaushan Script";
-  letter-spacing: 2px;
+  letter-spacing: 0.1rem;
   font-size: 1.2rem;
   display: flex;
   text-align: center;
-  /* background-color: red; */
 }
 .downloadBtn span {
   font-size: 1.2rem;
   color: rgb(161, 138, 10);
+  margin-left: 0.5rem;
 }
 .projBtn {
-  width: 180px;
-  height: 50px;
-  padding: 10px;
+  width: 11rem;
+  height: 3rem;
+  padding: 0.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-left: 30px;
-  margin-top: 5px;
+  margin-top: 0.4rem;
+  letter-spacing: 0.2rem;
+  margin-left: 2rem;
   border: none;
-  border-radius: 12px;
+  border-radius: 0.8rem;
   cursor: pointer;
   font-size: 1.2rem;
-  box-shadow: 0px 0px 1px 0px rgb(79, 72, 72);
+  box-shadow: 0rem 0rem 0.09rem 0rem rgb(79, 72, 72);
   background: transparent;
   color: #606e43;
   font-family: "Kaushan Script";
 }
 .projBtn:hover {
   text-decoration: underline;
-  box-shadow: 0px 0px 5px 0px rgb(79, 72, 72);
+  box-shadow: 0rem 0rem 0.4rem 0rem rgb(79, 72, 72);
   background: transparent;
   cursor: pointer;
 }
 .projBtn span {
   font-size: 1.2rem;
   color: rgb(161, 138, 10);
+  margin-left: 0.5rem;
+}
+@media screen and (max-width: 1510px) {
+  .homeSection_Container {
+    height: 75%;
+  }
+}
+@media screen and (max-width: 1410px) {
+  .homeSection_Container {
+    height: 80%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .homeSection_Container {
+    padding: 1rem 1.5rem;
+    height: 76%;
+  }
 }
 
-@media screen and (max-width: 1280px) {
-  .homeCon_background{
-    height: 90vh;
+@media screen and (max-width: 1200px) {
+  .homeSection_Container {
+    margin: 3% 7%;
+    height: 75%;
   }
-  .homeSection_Container{
-    height: 480px;
-    margin: 0px 220px 0;
-    padding: 5px 30px;
-    display: flex;
+  .name{
+    font-size: 1.4rem;
   }
-  .listOfReview {
-    font-size: 16px;
-  }
-  .name {
-    font-size: 20px;
-  }
-  span {
-    font-size: 20px;
-  }
-  .img_container {
-    width: 35%;
-    height: 350px;
-  }
-  .img_container img {
-    margin-left: 70px;
-  }
-  .downloadBtn {
-    width: 150px;
-    height: 40px;
-    font-size: 0.8rem;
-  }
-  .downloadBtn a {
-    font-size: 0.8rem;
-  }
-  .downloadBtn span {
-    font-size: 0.8rem;
-  }
-  .projBtn {
-    width: 150px;
-    height: 40px;
-    font-size: 0.8rem;
-  }
-  .projBtn span {
-    font-size: 0.8rem;
+  .name span {
+    font-size: 1.4rem;
   }
 }
 @media screen and (max-width: 1100px) {
-  .homeCon_background{
-    height: 110vh;
-    padding-bottom: 100px;
-  }
-  .homeSection_Container{
-    height: 530px;
-    margin: 0px 220px 0;
-    padding: 5px 30px;
-    display: flex;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .homeSection_Container{
-    height: 530px;
-  }
-  .myReview1024{
-    width: 100%;
-  }
-  .listOfReview {
-    font-size: 18px;
+  .homeSection_Container {
+    margin: 3% 4%;
   }
   .listOfReview{
-    margin-bottom: 25px;
+    font-size: 1.15rem;
   }
-  .name {
-    font-size: 20px;
-    margin-bottom: 25px;
-  }
-  span {
-    font-size: 20px;
-  }
-  .noImg {
-   display: none;
-  }
-  .btnContainer{
-    display: flex;
-    justify-content: space-around;
-    padding: 0px 30px;
+  .img_container img {
+    height: 75%;
   }
 }
-@media screen and (max-width: 900px) {
-  .homeCon_background{
-    padding-bottom: 650px;
+@media screen and (max-width: 1000px) {
+  .homeSection_Container {
+    margin: 3% 3%;
   }
-  .homeSection_Container{
-    height: 610px;
+}
+@media screen and (max-width: 920px) {
+  .homeSection_Container {
+    margin: 3% 2%;
+    height: 78%;
+  }
+  .img_container img {
+    height: 65%;
+    width: 85%;
   }
 }
 @media screen and (max-width: 850px) {
-  .homeSection_Container{
-    margin: 50px 100px;
-    height: 490px;
+  .img_container img {
+    height: 60%;
+    width: 90%;
   }
 }
-@media screen and (max-width: 780px) {
-  .homeCon_background{
-    padding-bottom: 100px;
-  }
-  .homeSection_Container{
-    margin: 50px 50px;
-    padding: 5px 5px;
-    height: 400px;
-  }
-  .name {
-    font-size: 15px;
-    margin-bottom: 25px;
-  }
-  span {
-    font-size: 15px;
-  }
-  .handIcon {
-    width: 25px;
-  }
-  .rocketIcon {
-    width: 25px;
-  }
-  .starIcon {
-    width: 30px;
-  }
-  .literIcon {
-    width: 25px;
-  }
-  .listOfReview {
-    font-size: 15px;
-  }
-  .downloadBtn {
-    width: 130px;
-    height: 35px;
-  }
-  .downloadBtn a {
-    font-size: 0.7rem;
-  }
-  .downloadBtn span {
-    font-size: 0.7rem;
-  }
-  .projBtn {
-    width: 130px;
-    height: 35px;
-    font-size: 0.7rem;
-  }
-  .projBtn span {
-    font-size: 0.7rem;
-  }
-}
-@media screen and (max-width: 660px) {
-  .homeCon_background{
-    padding-bottom: 450px;
-  }
-  .homeSection_Container{
-    margin: 0px 20px;
-    margin-top: 30px;
-    height: 400px;
-  }
-  .handIcon {
-    width: 35px;
-  }
-  .rocketIcon {
-    font-size: 0.8rem;
-  }
-  .starIcon {
-    font-size: 0.8rem;
-  }
-  .literIcon {
-    font-size: 0.8rem;
-  }
-}
-@media screen and (max-width: 550px) {
-  .homeCon_background{
-    padding-bottom: 450px;
-  }
-  .homeSection_Container{
-    height: 450px;
-  }
-}
-
-@media screen and (max-width: 455px) {
-  .homeCon_background{
-    padding-bottom: 500px;
-  }
-  .homeSection_Container{
-    margin: 0px 20px;
-    margin-top: 20px;
-    padding: 0px 0px;
-    padding-right: 10px;
-    height: 450px;
-  }
-  .myReview1024{
+@media screen and (max-width: 772px) {
+  .myReview {
+    align-items: center;
+    justify-content: center;
     width: 100%;
   }
-  .listOfReview {
-    font-size: 15px;
-  }
-  .listOfReview{
-    margin-bottom: 10px;
-  }
-  .name {
-    font-size: 15px;
-    margin-bottom: 25px;
-  }
-  span {
-    font-size: 15px;
-  }
-  .handIcon {
-    width: 25px;
-  }
-  .rocketIcon{
-    width: 10px;
-  }
-  .starIcon{
-    width: 10px;
-  }
-  .literIcon{
-    width: 10px;
-  }
-  .noImg {
+  .img_container {
    display: none;
   }
-
-  .downloadBtn {
-    width: 120px;
-    height: 40px;
-  }
-  .downloadBtn a {
-    font-size: 0.6rem;
-    align-items: center;
-  }
-  .downloadBtn span {
-    font-size: 0.6rem;
-  }
-  .projBtn {
-    width: 120px;
-    height: 40px;
-    font-size: 0.6rem;
-  }
-  .projBtn span {
-    font-size: 0.6rem;
+}
+@media screen and (max-width: 680px) {
+  .homeSection_Container {
+    height: 83%;
   }
 }
-@media screen and (max-width: 400px) {
-  .homeSection_Container{
-    height: 490px;
+@media screen and (max-width: 500px) {
+  .name{
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
   }
-}
-@media screen and (max-width: 320px) {
-  .homeCon_background{
-    padding-bottom: 370px;
-  }
-  .homeSection_Container{
-    padding-right: 10px;
-    height: 350px;
-  }
-  .listOfReview {
-    font-size: 10px;
+  .name span {
+    font-size: 1.2rem;
   }
   .listOfReview{
-    margin-bottom: 10px;
-  }
-  .name {
-    font-size: 10px;
-    margin-bottom: 25px;
-  }
-  span {
-    font-size: 10px;
+    font-size: 1.05rem;
   }
   .downloadBtn {
-    width: 100px;
-    height: 30px;
-    font-size: 0.6rem;
+    width: 9rem;
+    height: 2.5rem;
+  }
+  .downloadBtn a {
+    font-size: 0.85rem;
   }
   .downloadBtn span {
-    font-size: 0.6rem;
+    font-size: 0.85rem;
   }
   .projBtn {
-    width: 100px;
-    height: 30px;
-    font-size: 0.6rem;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 0.85rem;
+    margin-left: 3rem;
   }
-  .projBtn span {
-    font-size: 0.6rem;
+  .projBtn span{
+    font-size: 0.85rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .homeSection_Container {
+    padding: 0.5rem 0.5rem;  
+  }
+}
+@media screen and (max-width: 420px) {
+  .homeSection_Container {
+    padding: 0.5rem 0.5rem;  
+    max-width: 92%;
+    height: 85%;
+  }
+  .projBtn {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .homeSection_Container {
+    padding: 0.8rem 0.8rem;  
+    height: 63%;
+  }
+  .listOfReview {
+    font-size: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+  .myReview{
+    justify-content: flex-start;
+  }
+  .name {
+    font-size: 0.95rem;
+    margin-bottom: 0.9rem;
+    letter-spacing: 0;
+  }
+  .name span {
+    font-size: 0.95rem;
+  }
+  .handIcon {
+    margin-top: 0.3rem;
+  }
+  .downloadBtn {
+    width: 7rem;
+    height: 2rem;
+  }
+  .downloadBtn a {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .downloadBtn span {
+    font-size: 0.7rem;
+  }
+  .projBtn {
+    width: 7rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+  }
+  .projBtn span{
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 365px) {
+  .homeSection_Container {
+    height: 65%;
+  }
+}
+@media screen and (max-width: 330px) {
+  .homeSection_Container {
+    height: 70%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .homeSection_Container {
+    height: 80%;
   }
 }

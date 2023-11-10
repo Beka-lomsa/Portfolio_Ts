@@ -115,8 +115,8 @@ function App() {
           </div>
         </div>
         <div className="legal-info">
-          <p>&copy; 2023 Portfolio</p>
-          <div>
+          <div>&copy; 2023 Portfolio</div>
+          <div className='pricacyLegend'>
             <a href="/privacy-policy">Privacy Policy</a>
             <a href="/terms-of-use">Terms of Use</a>
           </div>

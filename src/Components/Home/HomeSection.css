@@ -305,8 +305,7 @@
 }
 @media screen and (max-width: 365px) {
   .homeSection_Container {
-    /* height: 65%; */
-    min-height: 80%;
+    height: 65%;
   }
 }
 @media screen and (max-width: 330px) {
@@ -317,5 +316,46 @@
 @media screen and (max-width: 300px) {
   .homeSection_Container {
     height: 80%;
+  }
+}
+@media screen and (max-width: 290px) {
+  .homeSection_Container {
+    padding: 1rem 0.3rem;  
+    /* height: 90%; */
+  }
+  .listOfReview {
+    font-size: 0.7rem;
+    margin-bottom: 0.7rem;
+    letter-spacing: 0rem;
+  }
+  .myReview{
+    justify-content: flex-start;
+  }
+  .name {
+    font-size: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+  .name span {
+    font-size: 0.75rem;
+  }
+  .downloadBtn {
+    width: 5rem;
+    height: 1.5rem;
+  }
+  .downloadBtn a {
+    font-size: 0.5rem;
+  }
+  .downloadBtn span {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+  }
+  .projBtn {
+    width: 5rem;
+    height: 1.5rem;
+    font-size: 0.4rem;
+    margin-left: 1rem;
+  }
+  .projBtn span{
+    font-size: 0.5rem;
   }
 }

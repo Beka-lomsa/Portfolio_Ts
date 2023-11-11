@@ -413,11 +413,5 @@
     width: 45%;
   }
 }
-@media screen and (max-width: 255px) {
-  .legal-info {
-    width: 50%;
-    background-color: red;
-  }
-}
 
 

@@ -6,7 +6,7 @@
 }
 .homeSection_Container {
   height: 35rem;
-  margin: 3% 10%;
+  margin: 2rem 5rem;
   padding: 2rem 3rem;
   letter-spacing: 0.09rem;
   border-radius: 0.7rem;
@@ -137,28 +137,12 @@
   color: rgb(161, 138, 10);
   margin-left: 0.5rem;
 }
-@media screen and (max-width: 1510px) {
-  .homeSection_Container {
-    /* height: 75%; */
-  }
-}
-@media screen and (max-width: 1410px) {
-  .homeSection_Container {
-    /* height: 80%; */
-  }
-}
 @media screen and (max-width: 1280px) {
   .homeSection_Container {
     padding: 1rem 1.5rem;
-    /* height: 76%; */
   }
 }
-
 @media screen and (max-width: 1200px) {
-  .homeSection_Container {
-    margin: 3% 7%;
-    /* height: 75%; */
-  }
   .name{
     font-size: 1.4rem;
   }
@@ -168,7 +152,7 @@
 }
 @media screen and (max-width: 1100px) {
   .homeSection_Container {
-    margin: 3% 4%;
+    margin: 2rem 2.5rem;
   }
   .listOfReview{
     font-size: 1.15rem;
@@ -179,13 +163,12 @@
 }
 @media screen and (max-width: 1000px) {
   .homeSection_Container {
-    margin: 3% 3%;
+    margin: 2rem 2rem;
   }
 }
 @media screen and (max-width: 920px) {
   .homeSection_Container {
-    margin: 3% 2%;
-    /* height: 78%; */
+    margin: 2rem 1rem;
   }
   .img_container img {
     height: 65%;
@@ -208,9 +191,12 @@
    display: none;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 650px) {
+  .homeCon_background{
+    height: 120vh;
+  }
   .homeSection_Container {
-    /* height: 83%; */
+    height: 40rem;
   }
 }
 @media screen and (max-width: 500px) {
@@ -250,19 +236,25 @@
   }
 }
 @media screen and (max-width: 420px) {
+  .homeCon_background{
+    height: 130vh;
+  }
   .homeSection_Container {
     padding: 0.5rem 0.5rem;  
     max-width: 92%;
-    /* height: 85%; */
+    height: 42rem;
   }
   .projBtn {
     margin-left: 1rem;
   }
 }
 @media screen and (max-width: 390px) {
+  .homeCon_background{
+    height: 110vh;
+  }
   .homeSection_Container {
     padding: 0.8rem 0.8rem;  
-    /* height: 63%; */
+   height: 28rem;
   }
   .listOfReview {
     font-size: 0.9rem;
@@ -305,28 +297,23 @@
 }
 @media screen and (max-width: 365px) {
   .homeSection_Container {
-    /* height: 65%; */
+    height: 30rem;
   }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 310px) {
   .homeSection_Container {
-    /* height: 70%; */
+    height: 32rem;
   }
 }
 @media screen and (max-width: 300px) {
   .homeSection_Container {
-    /* height: 80%; */
-  }
-}
-@media screen and (max-height: 350px) {
-  .homeCon_background{
-    /* height: 180vh; */
+    height: 35rem;
   }
 }
 @media screen and (max-width: 290px) {
   .homeSection_Container {
     padding: 1rem 0.3rem;  
-    /* height: 60%; */
+    height: 25rem;
   }
   .listOfReview {
     font-size: 0.7rem;

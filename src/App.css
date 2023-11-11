@@ -413,10 +413,13 @@
     width: 45%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 250px) {
   .legal-info {
     width: 60%;
   }
+  .legal-info div {
+    font-size: 0.1rem;
+  } 
 }
 
 

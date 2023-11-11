@@ -1,6 +1,7 @@
 .homeCon_background{
   width: 100%;
   height: 110vh;
+  padding-bottom: 33rem;
   display: flex;
   justify-content: center;
 }
@@ -254,7 +255,8 @@
   }
   .homeSection_Container {
     padding: 0.8rem 0.8rem;  
-   height: 28rem;
+    margin: 0.5rem 0.5rem;
+    height: 28rem;
   }
   .listOfReview {
     font-size: 0.9rem;

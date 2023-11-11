@@ -14,6 +14,7 @@
   border-left: 0.3rem solid #606e43;
   border-right: 0.3rem solid #606e43;
   display: flex;
+  overflow: hidden;
 }
 .myReview {
   width: 70%;
